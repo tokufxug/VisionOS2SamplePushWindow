@@ -13,5 +13,9 @@ struct VisionOS2SamplePushWindowApp: App {
         WindowGroup {
             ContentView()
         }
+        
+        WindowGroup(id: "pancakes") {
+            PancakeWindowView()
+        }
     }
 }

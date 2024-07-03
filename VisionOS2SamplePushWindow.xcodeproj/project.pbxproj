@@ -13,6 +13,8 @@
 		1AF1591D2C3586B3007F4BDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AF1591C2C3586B3007F4BDF /* Assets.xcassets */; };
 		1AF159202C3586B3007F4BDF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AF1591F2C3586B3007F4BDF /* Preview Assets.xcassets */; };
 		1AF1592B2C3586B3007F4BDF /* VisionOS2SamplePushWindowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF1592A2C3586B3007F4BDF /* VisionOS2SamplePushWindowTests.swift */; };
+		1AF159372C35870C007F4BDF /* PancakeWindowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF159362C35870C007F4BDF /* PancakeWindowView.swift */; };
+		1AF159392C358845007F4BDF /* pancakes.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1AF159382C358845007F4BDF /* pancakes.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 		1AF159212C3586B3007F4BDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1AF159262C3586B3007F4BDF /* VisionOS2SamplePushWindowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisionOS2SamplePushWindowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AF1592A2C3586B3007F4BDF /* VisionOS2SamplePushWindowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionOS2SamplePushWindowTests.swift; sourceTree = "<group>"; };
+		1AF159362C35870C007F4BDF /* PancakeWindowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PancakeWindowView.swift; sourceTree = "<group>"; };
+		1AF159382C358845007F4BDF /* pancakes.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = pancakes.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +82,10 @@
 		1AF159132C3586B1007F4BDF /* VisionOS2SamplePushWindow */ = {
 			isa = PBXGroup;
 			children = (
+				1AF159382C358845007F4BDF /* pancakes.usdz */,
 				1AF159182C3586B1007F4BDF /* VisionOS2SamplePushWindowApp.swift */,
 				1AF1591A2C3586B1007F4BDF /* ContentView.swift */,
+				1AF159362C35870C007F4BDF /* PancakeWindowView.swift */,
 				1AF1591C2C3586B3007F4BDF /* Assets.xcassets */,
 				1AF159212C3586B3007F4BDF /* Info.plist */,
 				1AF1591E2C3586B3007F4BDF /* Preview Content */,
@@ -195,6 +201,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AF159392C358845007F4BDF /* pancakes.usdz in Resources */,
 				1AF159202C3586B3007F4BDF /* Preview Assets.xcassets in Resources */,
 				1AF1591D2C3586B3007F4BDF /* Assets.xcassets in Resources */,
 			);
@@ -215,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AF1591B2C3586B1007F4BDF /* ContentView.swift in Sources */,
+				1AF159372C35870C007F4BDF /* PancakeWindowView.swift in Sources */,
 				1AF159192C3586B1007F4BDF /* VisionOS2SamplePushWindowApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
